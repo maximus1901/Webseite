@@ -1,0 +1,19 @@
+button{
+    padding: 0.6 2em;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 14pt;
+    border: none;
+    border-radius: 1000px;
+}
+h1{
+    color: green;
+}
+.myButton{
+    padding: 0.6 2em;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 14pt;
+    border: none;
+    border-radius: 1000px;
+}
