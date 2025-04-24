@@ -10,7 +10,7 @@
 </head>
 <body>
   <header><nav>
-    <a href="#" class="logo">Max Wandrey</a>
+    <a href="index.html" class="logo">Max Wandrey</a>
     <input type="checkbox" id="toggle_button">
     <label for="toggle_button" class="toggle_button">
       <span class="bar"></span>
@@ -18,7 +18,7 @@
       <span class="bar"></span>
     </label>
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li class="expandable_li">
         <input type="checkbox" id="products_checkbox">
         <label for="products_checkbox">Products</label>
@@ -49,8 +49,12 @@
   <section>
     <div>
       <h1>Meine Projekte</h1>
-      <div class="flex_project"><button><a href="/Projects/Project_BClock.html">Binär Uhr</a></button></div>
-      <div class="flex_project"><button href="/Projects/Project_Battleship.html">Schiffe versenken</button></div>
+      <div class="flex_project" style="background-image: url('img/binaerUhr.jpg')">
+        <button onclick="location.href='/projects.html'">Binär Uhr</button>
+      </div>
+      <div class="flex_project" style="background-image: url('img/Wuerfel.jpg')">
+        <button onclick="location.href='/projects.html'">Wuerfel</button>
+      </div>
       <div class="flex_project"></div>
       <div class="flex_project"></div>
       <div class="flex_project"></div>
